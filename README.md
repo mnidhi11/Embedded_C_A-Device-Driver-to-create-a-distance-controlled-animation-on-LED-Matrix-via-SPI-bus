@@ -65,9 +65,9 @@ The pattern is of a person walking/running.
 
 -> Initially all the leds will glow till the time the ultrasonic sensor is initialized
 -> Based on the distance, the speed and direction of the person will change.
-->For closer distances, he'll move forward, with speed increasing as distance decreases.
-->For distances > 100 cm, he'll move in the reverse direction, with speed increasing as distance decreases.
-Note: Sometime, it may be hard to notice the difference in the speed.
--> Also, in part 2, the led's will be off initially until the sensor has been initialized.
--> (Part2) They will also be "ON" when distance is < 10 cms
--> (Part2) They will also be "OFF" when distance is < 10 cms
+-> For closer distances, it'll move forward, with speed increasing as distance decreases.
+-> For distances > 100 cm, he'll move in the reverse direction, with speed increasing as distance decreases.
+
+-> Also, the led's will be off initially until the sensor has been initialized.
+-> (Part2) LEDs will also be "ON" when distance is < 10 cms
+-> (Part2) LEDs will also be "OFF" when distance is < 10 cms
